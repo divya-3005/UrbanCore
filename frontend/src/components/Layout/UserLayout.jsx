@@ -1,15 +1,15 @@
-import React from 'react'
-import Header from '../Common/Header.jsx'
+import React from "react";
+import Header from "../Common/Header.jsx";
 
 const UserLayout = () => {
   return (
     <>
-        {/* Header */}
-        <Header/>
-        {/* Main Content */}
-        {/* Footer */}
+      {/* Header */}
+      <Header />
+      {/* Main Content */}
+      {/* Footer */}
     </>
-  )
-}
+  );
+};
 
-export default UserLayout
+export default UserLayout;

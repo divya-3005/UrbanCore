@@ -1,21 +1,19 @@
-import React from 'react'
-import Topbar from '../Layout/Topbar.jsx'
-import Navbar from './Navbar.jsx'
+import React from "react";
+import Topbar from "../Layout/Topbar.jsx";
+import Navbar from "./Navbar.jsx";
 
 const Header = () => {
   return (
     <>
-    <header>
+      <header className="border-b border-gray-200">
         {/* Topbar */}
-        <Topbar/>
+        <Topbar />
         {/* Navbar */}
-        <Navbar/>
+        <Navbar />
         {/* Cart Drawer */}
-
-    </header>
-    
+      </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
